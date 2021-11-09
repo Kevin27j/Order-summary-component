@@ -1,0 +1,112 @@
+
+body {
+  background: no-repeat url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  position: relative;
+}
+
+main {
+  position: relative;
+  text-align: center;
+  margin: 50px auto;
+  width: 30%;
+  min-width: 375px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#illustration-hero {
+  width: 100%;
+}
+
+
+/******************* ORDER SUMMARY SECTION *******************/
+.text-top {
+  margin: 0 40px;
+}
+
+.text-top > h1 {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding: 20px 40px 0;
+}
+
+.text-top > p {
+  margin: 0 16px;
+  color: grey
+}
+
+/******************* PLAN SECTION *******************/
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 40px;
+  height: 90px;
+}
+
+#icon-music {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.plan-price {
+  padding-right: 55px;
+}
+
+.plan-price > h3 {
+  font-size: 1em;
+  line-height: 0;
+}
+
+.plan-price > p {
+  font-size: 1em;
+  color: grey;
+}
+
+
+#change-btn {
+  font-weight: 700;
+  font-size: 14px;
+  padding-right: 10px;
+  color: hsl(228, 45%, 44%);
+}
+
+.proceed-btn {
+  display: block;
+  background: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  margin: 30px 40px;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: box-shadow .3s;
+}
+
+.proceed-btn:hover {
+  box-shadow: 10px 10px 5px hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+display: block;
+color: hsl(228, 45%, 44%);
+margin: 30px 40px 40px;
+font-size: 15px;
+}
+
+/*******************ATTRIBUTION FOOTER*****************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
